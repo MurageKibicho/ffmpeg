@@ -20,6 +20,7 @@ I list the data structure, how to allocate memory and how to free memory.
  - Allocate `av_packet_alloc()`
  - Dereference buffers `av_packet_unref(AVPacket *pkt)`
  - Free `av_packet_free(AVPacket **pkt)`
+ - NOTE `av_free_packet` is deprecated. **NEVER** use.
  
 ## AVCodecContext
  - Allocate `avcodec_alloc_context3(const AVCodec *codec)`
